@@ -11,6 +11,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #FFF;
 }
 
 ul {
@@ -39,22 +40,21 @@ ul {
   min-height: 80px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .landing-page header .logo img {
   max-height: 100px;
   width: auto;
+  margin-left: -30px;
 }
 
 .landing-page header .links {
   display: flex;
-  align-items: center;
   gap: 20px; 
 }
 
 .landing-page header .links a {
-  flex: 1; 
+  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,15 +85,15 @@ ul {
 
 .landing-page .content {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 140px;
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: center;
+  gap: 40px; 
   min-height: calc(100vh - 80px);
-  flex-wrap: wrap;
+
 }
 
 .landing-page .content .info {
-  flex: 1;
   text-align: center;
 }
 
@@ -115,9 +115,9 @@ ul {
 }
 
 .landing-page .content .image {
-  flex: 1;
   display: flex;
   justify-content: center;
+  flex: 1;
 }
 
 .landing-page .content .image img {
@@ -130,6 +130,7 @@ ul {
 
 footer.site-footer {
   padding-top: 40px;
+  padding-bottom: 40px;
   text-align: center;
 }
 
@@ -150,7 +151,6 @@ footer.site-footer img {
   max-width: 600px;
   width: 100%;
   height: auto;
-
 }
 
 .social-media,
