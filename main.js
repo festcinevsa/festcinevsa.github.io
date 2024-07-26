@@ -1,10 +1,10 @@
-const menuItems = document.querySelectorAll('.landing-page header .links li');
+const menuItems = document.querySelectorAll('.landing-page header .links a');
 
-menuItems.forEach(item => {
-    item.addEventListener('click', function() {
-        menuItems.forEach(item => {
-            item.classList.remove('active');
+menuItems.forEach(link => {
+    link.addEventListener('click', function() {
+        menuLinks.forEach(link => {
+            link.classList.remove('active');
         });
         this.classList.add('active');
-    })
-})
+    });
+});
