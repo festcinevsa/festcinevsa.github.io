@@ -136,6 +136,7 @@ footer.site-footer {
 
 footer.site-footer .container {
   display: flex;
+  margin-top: 40px;
   flex-direction: column;
   align-items: center;
 }
@@ -148,7 +149,7 @@ footer.site-footer p {
 
 footer.site-footer img {
   max-width: 100%;
-  max-width: 600px;
+  max-width: 700px;
   width: 100%;
   height: auto;
 }
@@ -157,7 +158,7 @@ footer.site-footer img {
 .email {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color: #FFF;
 }
 
